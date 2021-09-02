@@ -24,6 +24,7 @@ def get_function_name() -> str:
 class TestEmail:
     """
     Тест для списка email.
+    ("w@", True) - этот тест упадет, намеренно, чтобы проверить в лог файле наличие FAILED
     """
 
     @pytest.mark.parametrize(
