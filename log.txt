@@ -1,0 +1,6 @@
+test_email::test_valid_email[test@test.ru] PASSED
+test_email::test_valid_email[w@w.com] PASSED
+test_email::test_valid_email[123QWE@mmm.mmm] PASSED
+test_email::test_valid_email[test@test.] PASSED
+test_email::test_valid_email[w@] FAILED
+test_email::test_valid_email[@tt] PASSED
